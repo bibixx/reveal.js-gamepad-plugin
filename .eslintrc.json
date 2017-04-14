@@ -1,0 +1,47 @@
+{
+    "extends": ["airbnb", "plugin:react/recommended"],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "jquery": true
+    },
+    "globals": {
+        "Reveal": true
+    },
+    "rules": {
+        "quotes": ["error", "double"],
+        "arrow-body-style": ["error", "always"],
+        "func-names": 0,
+        "space-in-parens": ["error", "always"],
+        "space-before-function-paren": ["error", {
+          "anonymous": "never",
+          "named": "never",
+          "asyncArrow": "ignore"
+        }],
+        "quote-props": ["error", "consistent"],
+        "no-console": 0,
+        "eol-last": 0,
+        "no-unused-vars": 1,
+        "constructor-super": 0,
+        "comma-dangle": 1,
+        "class-methods-use-this": 0,
+        "max-len": 0,
+        "no-plusplus": 0,
+        "no-restricted-syntax": [0, "ForInStatement"],
+        "no-prototype-builtins": 0,
+        "linebreak-style": 0,
+
+
+        "react/forbid-prop-types": 0,
+        "react/jsx-filename-extension": 0,
+        "react/jsx-no-bind": 0,
+        "react/no-danger": 0,
+        "react/prefer-stateless-function": 0
+    }
+}
