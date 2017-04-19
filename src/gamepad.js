@@ -49,7 +49,7 @@
 
       setTimeout( () => {
         cooldownedButtons = cooldownedButtons.filter( ( v ) => { return ( v !== b ); } );
-      }, 250 );
+      }, 500 );
 
       return true;
     }

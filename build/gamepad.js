@@ -56,7 +56,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         cooldownedButtons = cooldownedButtons.filter(function (v) {
           return v !== b;
         });
-      }, 250);
+      }, 500);
 
       return true;
     }
